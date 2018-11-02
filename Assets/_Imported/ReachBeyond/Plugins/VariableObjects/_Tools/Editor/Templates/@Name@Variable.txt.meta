@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: eef42b4cbdbd44eb8849e428b14c047f
+labels:
+- ReachBeyond.VariableObjects.ClassCompatible
+- ReachBeyond.VariableObjects.EngineTemplate
+- ReachBeyond.VariableObjects.StructCompatible
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+﻿using UnityEngine;
+using UnityEditor;
+
+namespace ReachBeyond.VariableObjects.Editor {
+
+	[CustomPropertyDrawer(typeof(@Name@Reference))]
+	public class @Name@RefEditor : Base.Editor.RefEditor { }
+
+	[CustomPropertyDrawer(typeof(@Name@ConstReference))]
+	public class @Name@ConstRefEditor : Base.Editor.ConstRefEditor { }
+}
+
+
+
+/* DO NOT REMOVE -- START VARIABLE OBJECT INFO -- DO NOT REMOVE **
+{
+    "name": "@Name@",
+    "type": "@Type@",
+    "referability": "@Referable@"
+}
+** DO NOT REMOVE --  END VARIABLE OBJECT INFO  -- DO NOT REMOVE */
